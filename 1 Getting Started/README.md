@@ -1,5 +1,4 @@
 ## GETTING STARTED
----
 
 ### PREREQUISITES:
 The only "soft" prerequisite for Cleaver on all supported platforms is that you need to have git installed and should be in your path. Cleaver only requires git for deployments. Given that Cleaver is a tool for developer, we expect everyone to have git already installed.
@@ -48,7 +47,7 @@ Having an issue? See [Getting Started Troubleshooting][troubleshooting] page. If
 [1]: https://getcleaver.com/?ref=docs
 [signup]: https://www.producthunt.com/my/upcoming/cleaver/edit
 [troubleshooting]: ../Troubleshooting.md
-[cloud-providers]: ./cloud-providers.md
+[cloud-providers]: ../2 Cloud Providers.md
 [app-image]: https://appimage.org/
 [cleaver-mac]: https://youtu.be/y-25SRQcpWI
 [cleaver-linux]: https://youtu.be/y3BrdnKfYd8
