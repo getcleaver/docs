@@ -13,9 +13,9 @@ If things are still not clear, or if you are having an issue, please send us an 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pdzvB1Et0-c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-[setup-repo]: /deployments/setting-up-local-repository.md
-[adjust-hooks]: /deployments/hooks.md
-[deploy]: /deployments/deploying.md
-[sync-env]: /deployments/environment-variables.md
+[setup-repo]: ../Local%20Repository.md
+[adjust-hooks]: ../Hooks.md
+[deploy]: ../README.md
+[sync-env]: ../Environment%20Variables.md
 
 

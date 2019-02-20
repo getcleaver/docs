@@ -14,4 +14,3 @@ If your app depends on .env file (like a Laravel app does), make sure to [add an
 [hooks]: /deployments/hooks.md
 [deploy]: /deployments/deploying.md
 [env]: /deployments/environment
-

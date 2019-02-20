@@ -1,9 +1,9 @@
 ## SSH KEYS
 ---
 
-When you create a server, Cleaver automatically adds a public SSH key to your server. The private counterpart of this public SSH key can be found under `~/.ssh/cleaver` folder on macOS. Cleaver also adds a private key on the provisioned server itself and if you go to `Servers > <your server name> > SSH Keys`, you can see its public counterpart. You use this key when you need to let other third party services access your server.
+When you create a server, Cleaver automatically adds a public SSH key to your server. The private counterpart of this public SSH key can be found under `~/.ssh/cleaver` folder on macOS/Linux. Cleaver also adds a private key on the provisioned server itself and if you go to `Servers > <your server name> > SSH Keys`, you can see its public counterpart. You use this key when you need to let other third party services access your server.
 
-[For security reason][1], Cleaver disables logging in as root over SSH and also disables password login. Instead, you have to login as user `cleaver`. This is the default user created and used by Cleaver to run tasks on your server. So by default, once Cleaver is done provisioning your server, you can only login over SSH using your private key and only as user `cleaver`.
+For security reason, Cleaver disables disables password login. User `cleaver` is created and used by Cleaver to run tasks on your server.
 
 ### SSHing into your server using the default SSH key
 ---
@@ -47,21 +47,9 @@ Or, you could log into your server and verify that the key was appended to `/hom
 The key will be deleted immediately **without** asking for confirmation.
 
 
-If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to manage SSH keys using Cleaver.
+If things are still not clear, or if you are having an issue, please watch [this][ssh-clip] clip that shows how to manage SSH keys using Cleaver.
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s4xTsITVQ3M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
-
-
-
 [1]: https://unix.stackexchange.com/a/82639/249514
-
+[ssh-clip]: https://www.youtube-nocookie.com/embed/s4xTsITVQ3M?rel=0

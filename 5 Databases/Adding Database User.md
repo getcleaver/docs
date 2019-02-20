@@ -32,7 +32,7 @@
 
 ### STEPS
 
-1. From the list of database users, click the vertical bar menu (3 vertical dots) next to the database user you want to adjust permissions and select `Edit`. 
+1. From the list of database users, click the vertical bar menu (3 vertical dots) next to the database user you want to adjust permissions and select `Edit`.
 
 2. Add or remove database(s) from the `CAN ACCESS` list.
 
@@ -40,11 +40,9 @@
 
 ---
 
-If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to add a database user to your server using Cleaver.
+If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to add a database user to your server using Cleaver: https://www.youtube-nocookie.com/embed/BHUj4UAVikk?rel=0
 
 <br/>
 
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHUj4UAVikk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 [mariadb]: https://mariadb.org/

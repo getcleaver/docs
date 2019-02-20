@@ -34,10 +34,10 @@ Sit back and relax! Based on what have selected to install and the location you 
 
 > **⚠️ Warning**: Don't rename, edit, or delete any password created by Cleaver from the keychain.
 
-If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to provision a server on DigitalOcean.
+If things are still not clear, please watch [this][2] clip that shows how to provision a DigialOcean server.
 
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ly9POjhqpDY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-  
-[1]: /cloud-providers/digitalocean.md
+[1]: ../2%20Cloud%20Providers/Adding%20DigitalOcean%20Profile.md
+[2]: https://www.youtube-nocookie.com/embed/Ly9POjhqpDY?rel=0
+[ssl-certificates-later]: ../SSL%20Certificates.md

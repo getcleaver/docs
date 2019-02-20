@@ -11,7 +11,7 @@ To allow Cleaver to use your Vultr account so that it can create and administer 
 
 3. In the **Access Control** panel, click on **Allow All IPv4** button to allow to use API from your desktop.
 
-4. On the modal box that appears asking you to confirm, click on **Ok**.
+4. Confirm by clicking **Ok**.
 
 4. Copy the API key, switch to Cleaver app, and select **Providers** menu from the sidebar.
 
@@ -29,6 +29,7 @@ Cleaver will verify your token with Vultr and if everything goes well, you shoul
 
 If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to add a Vultr personal access token to Cleaver. And in case you were wondering, the access token is saved in your keyring.
 
+If things are still not clear, or if you are having an issue, please watch [this][vultr-clip] clip that shows how to add a DigitalOcean access token.
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x80xhiAS7Ro?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+[vultr-clip]: https://www.youtube-nocookie.com/embed/x80xhiAS7Ro?rel=0

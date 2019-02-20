@@ -31,13 +31,10 @@ Once it is done, you can click on a little arrow to visit the site on your brows
 
 > 🍄 Just for fun, after Cleaver is done adding your site, you could go to https://ssllabs.com/ssltest/analyze.html to check what security grade your site gets. It should get at least an A because you deserve nothing less!
 
-If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to create a secure static web app using Cleaver.
-
+If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to create a secure static web app using Cleaver: https://www.youtube-nocookie.com/embed/R6K-aOu3A7o?rel=0
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R6K-aOu3A7o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+\* www CNAME is only added for a domain and not for a sub-domain
 
-\* www CNAME is only added for a domain and not for a sub-domain 
-
+[ssl-certificates-later]: ../SSL%20Certificates.md
 [dns]: https://www.name.com/support/articles/205516858-Understanding-DNS-record-types
-

@@ -5,7 +5,7 @@
 
 1. Select the server you want to add this [Grav][1] site to.
 
-2. Select `Sites` menu from the secondary sidebar. 
+2. Select `Sites` menu from the secondary sidebar.
 
 3. Click the **Add New Site** button.
 
@@ -15,11 +15,11 @@
 
 5. **PROJECT TYPE**: Select **Grav**.
 
-6. **ADD ADMIN PLUGIN**: Check this field to install Grav with [admin plugin][2]. 
+6. **ADD ADMIN PLUGIN**: Check this field to install Grav with [admin plugin][2].
 
 7. **SECURE WITH LET'S ENCRYPT**: Check this field if you want to install and configure SSL certificates (from Let's Encrypt) for your Grav site. We highly recommend you to check this option; after all it's free! If you decide to check this field and install SSL certificates, you must provide a valid email address.
 > **⚠️ Warning**: If you have not checked the checkbox in step 5 to let Cleaver configure DNS records for you, make sure you domain is pointed to the nameservers of the selected cloud provider otherwise this setup will fail.
-> **🗒 Note**: In case you decided not to secure your site with free SSL certificates at this time, you can always [install SSL certificates and secure your site later](/ssl-certificates.md).
+> **🗒 Note**: In case you decided not to secure your site with free SSL certificates at this time, you can always [install SSL certificates and secure your site later][ssl-certificates-later].
 
 8. Double check that all the values are what you wanted and then click **Add** button.
 
@@ -34,11 +34,13 @@ Once it is done, you can click on a little arrow to visit the site on your brows
 <br/>
 
 
-If things are still not clear, or if you are having an issue, please send us an email. In the meantime, watch the following clip that shows how to create a secure Grav cms site with the admin plugin using Cleaver.
+If things are still not clear, or if you are having an issue, please watch [this][site-clip] clip that shows how to create a secure Grav cms site with the admin plugin using Cleaver.
 
 <br/>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1Xfl8ARLq28?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+\* www CNAME is only added for a domain and not for a sub-domain
 
 [1]: https://getgrav.org
 [2]: https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md
+[site-clip]: https://www.youtube-nocookie.com/embed/1Xfl8ARLq28?rel=0
+[ssl-certificates-later]: ../SSL%20Certificates.md
+[dns]: https://www.name.com/support/articles/205516858-Understanding-DNS-record-types
