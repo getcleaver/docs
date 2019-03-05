@@ -8,11 +8,11 @@ Cleaver doesn't save any of your information in the cloud. This
     nobody else. They are saved on your local machine in a single file -
    `cleaver.db`. The location depends on the type of Operating
     System you are using:
-    
+
  On OSX: `~/Library/Application Support/cleaver/`
-    
+
  On Windows:  `%APPDATA%/cleaver`
-       
+
  On Linux:   `$XDG_CONFIG_HOME/cleaver` or `~/.config/cleaver`
 
 **What are the steps for creating and provisioning a DigitalOcean server?**
@@ -24,9 +24,17 @@ Cleaver doesn't save any of your information in the cloud. This
 
 * Please follow [these steps][provisioning].
 
-
-**How much will it cost?**
-
-* Honestly speaking we haven't decided anything on the cost yet. Right now all of our efforts is laser focused on adding missing features, fixing bugs, documentation, and stability. One thing we know for sure is that we want to make Cleaver accessible and affordable to everyone, despite their revenue and geographic location. For now the only thing we want from you is to let other people know about Cleaver!
+**What does Cleaver do to my server when provisioning? What software gets installed?**
+  * Following are some of the important operations that Cleaver performs when provisioning your server:
+    - Installs Ubuntu 18.04 and some packages - `wget`, `unzip`, and `zip`
+    - Configures automatic security updates
+    - Creates a swap file
+    - Creates a non-admin user named `cleaver`
+    - Adds public keys of GitHub, GitLab, and BitBucket to make it easy to deploy your web apps
+    - Configures SSH and disabled password authentication
+    - Configures firewall that allows SSH connection on Port 22, TCP connections on both port 80 and 443
+    - Configures fail2ban
+    - Installs and configures supervisor
+    - Installs and configures Nginx
 
 [provisioning]: /servers/provisioning.md
