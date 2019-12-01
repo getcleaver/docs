@@ -6,5 +6,5 @@ Right now Cleaver supports [DigitalOcean][digitalocean] and [Vultr][vultr] cloud
 
 [digitalocean]: https://digitalocean.com
 
-[vultr]: https://digitalocean.com
+[vultr]: https://www.vultr.com
 
